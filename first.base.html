@@ -12,4 +12,19 @@
     {% block content %}
     {% endblock %}-->
 
+    <!--iterating over a python list
+
+        1. in run.py write- 
+        @app.route("/about")
+def about():
+    return render_template("about.html", page_title="About", list_of_numbers=[1, 2, 3])
+
+    2. In about page iterate over a list:
+    
+        {% for number in list_of_numbers %}
+        <p>{{ number }}</p>
+        {% endfor %}
+
+// format with CTR+A, K, F,
+
    
